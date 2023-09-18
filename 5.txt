@@ -1,0 +1,6 @@
+read -p "Enter a string:" input_string
+if echo "$input_string" |grep -q "pattern"; then
+echo "Pattern found in input string" 
+else
+echo "Pattern not found in input string" 
+fi

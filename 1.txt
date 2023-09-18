@@ -1,0 +1,9 @@
+valid_username="Username"
+valid_password="Password"
+read -p "Enter username:" username
+read -s -p "Enter password:" password
+if [ "$username" == "$valid_username" ]8&[ "$password" =="$valid_password" ]; then 
+echo "Valid username and password" 
+else
+echo "Invalid username and password"
+fi

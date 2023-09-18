@@ -1,0 +1,6 @@
+read -p "Enter a file path: " fp
+if [ -d "$fp" ]; then
+echo "File is a dirctory"
+else
+echo "File is not a directory"
+fi
